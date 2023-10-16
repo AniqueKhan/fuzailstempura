@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fuzailst/public_html/test.fuzailstempura.com.pk/
+    - /bin/cp * $DEPLOYPATH
